@@ -1,0 +1,27 @@
+.mainFooter {
+  background: black;
+  padding: 2rem;
+  margin-top: 3rem;
+  /* grid-row: 3 / 4; */
+  grid-area: footer;
+  color: white;
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .link {
+      margin: 0.5rem 0;
+      a {
+        color: white;
+        text-decoration: underline;
+        &:hover,
+        &:active {
+          color: #ccc;
+        }
+      }
+    }
+  }
+}

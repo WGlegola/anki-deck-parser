@@ -26,14 +26,6 @@ function Header({}: Props) {
           <li className={classes.mainNav__item}>
             <NavLink
               className={(navData) => (navData.isActive ? classes.active : "")}
-              to="/roadmap"
-            >
-              Roadmap
-            </NavLink>
-          </li>
-          <li className={classes.mainNav__item}>
-            <NavLink
-              className={(navData) => (navData.isActive ? classes.active : "")}
               to="/managedecs"
             >
               Manage Decs
